@@ -1,0 +1,48 @@
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.link {
+    margin: 1rem;
+    text-decoration: none;
+    color: #746060;
+    box-shadow: 5px 8px #a18888;
+}
+
+.link .card {
+    width: 15em;
+    height: 10em;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    margin: 5rem;
+  }
+
+  .pagination li {
+    margin: 0 5px 0 5px;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6c7ac9;
+    color: #6c7ac9;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+  }
+  
+  .pagination__link--active a {
+    color: #fff;
+    background: #6c7ac9;
+  }
+  
+  .pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+  }
